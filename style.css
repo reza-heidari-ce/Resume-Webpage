@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar ul {
+	list-style-type: none; 
+	margin: 0;
+	/* text-align: center; */
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(94, 83, 83);
+}
+.navbar li{
+	display: inline;
+}
+.navbar li a {
+	/* float: left; */
+	padding:5%;
+	font-size: 1.2em;
+	line-height: 40px;
+	text-decoration: none;
+  	color: white;
+}
+.navbar li a:hover {
+	background-color: #111;
+	transition: all 0.3 ease;
+}
+.skill h2{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.skill h3{
+	margin-left: 70px;
+	margin-top: 20px;
+
+}
+.skill li{
+	margin-left: 85px;
+}
+.achievement ul{
+	margin-top: 30px;
+	margin-left: 75px;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+table input{
+	width: 239px;
+}
+table td{
+	padding-top: 10px;
+}
+
+.info{
+	padding: 0px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.info img{
+	border-radius: 4px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 150px;
+	float: left;
+}
+
+.info a{
+	text-decoration: none;
+}
+hr{
+	/* margin-top: 10%; */
+	margin: auto;
+	clear: both;
+	width: 90%;
+	
+}
+.biography{
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.biography p{
+	margin-right: 40px;
+}
+footer {  
+	position: fixed;  
+	bottom: 0px;  
+	width: 100%;  
+	padding: 5px;
+	font-size: 10px;
+	background-color: rgb(94, 83, 83);  
+	color: white;  
+	/* text-align: center;   */
+}  
+footer a{
+	text-decoration: none;
+	margin-left: 40px;
+	color:white
+}
+footer .email{
+	display: inline;
+	margin-left: 40px;
+}
+footer .copyright{
+	text-align: center;
+}
