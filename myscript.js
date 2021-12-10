@@ -1,4 +1,4 @@
 function SubmitSuccesfull(){
-    alert("Your Message has been recieved");
+    alert("Your message has been recorded");
     location.href="contact.html";
 }
